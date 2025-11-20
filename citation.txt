@@ -1,0 +1,25 @@
+Who Helped Me: Peers, Ai, Mr.Aiello
+
+What I asked:
+Peers: During the project my partner and I had struggled to create a for loop and whenever it ran there was constant error.So I asked
+one of my peers in a different class to help
+explain the process of it. 
+
+Ai: Once we finished coding there were errors that I wasn't sure how to fix so I asked Copy and pasted the errors that was shown and 
+asked how I can fix it so it could run. 
+
+Mr.Aiello: What dataset would work best, how to insert it
+
+What response I recieved: 
+Peers: She explained that the error we had in our for loop was that we were using the wrong variable and small mistakes like semicolon
+caused it not to run.
+
+Ai: ChatGpt explained that there was small errors such as spaces or typos. One of the main issues was that we were using String array
+when instead we were supposed to use IntArray because we're storing numbers (minutestreamed). Another main issue was that the code kept
+returning variable i not found. This was because our for loop ended early because we accidentally put a semicolon at the end of it 
+Example: Orginal code : for (int i = 0; i < minutestreamed.length; i++); { fixed: for (int i = 0; i < minutestreamed.length; i++) {
+When i is outside the loop; it doesn't exist
+
+Mr.Aiello: We asked Mr.Aiello what dataset would work best based off of our topic, and then he showed us how to insert it into 
+Google Sheets. Then we determined what would be most useful and insert it into code.org. Lastly we also used the starter code 
+provided in the project google slides. 
