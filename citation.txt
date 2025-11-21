@@ -8,7 +8,7 @@ explain the process of it.
 Ai: Once we finished coding there were errors that I wasn't sure how to fix so I asked Copy and pasted the errors that was shown and 
 asked how I can fix it so it could run. 
 
-Mr.Aiello: What dataset would work best, how to insert it
+Mr.Aiello: What dataset would work best, how to insert it, Issues with output
 
 What response I recieved: 
 Peers: She explained that the error we had in our for loop was that we were using the wrong variable and small mistakes like semicolon
@@ -21,5 +21,10 @@ Example: Orginal code : for (int i = 0; i < minutestreamed.length; i++); { fixed
 When i is outside the loop; it doesn't exist
 
 Mr.Aiello: We asked Mr.Aiello what dataset would work best based off of our topic, and then he showed us how to insert it into 
-Google Sheets. Then we determined what would be most useful and insert it into code.org. Lastly we also used the starter code 
-provided in the project google slides. 
+Google Sheets. Then we determined what would be most useful and insert it into code.org. We had a concern with the output of minutes
+and Mr.Aiello explained our code was directly getting an amount of minutes for each genre instead of overall calculating the total 
+of minutes. Lastly we also used the starter code  provided in the project google slides. 
+
+
+
+

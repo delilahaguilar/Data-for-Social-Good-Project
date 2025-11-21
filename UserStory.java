@@ -33,12 +33,29 @@ public class UserStory {
         }
       return topgenre[maxIndex]; //Returns most popular genre
     }
+
+  public int countTotalMinuteByGenre(String genre) {
+    // 1. Create a total variable to sum all the minutes stream (int)
+int total = 0;
+   
+    // 2. Traverse the topgenre array
+ for (int i = 0; i < topgenre.length; i++) {
+   // 3. Check if the topgenre[i] is equal to the paramater genre
+        if (topgenre[i].equals(genre)) {
+           // 4. If true, add minutestreamed[i] to the total from step 1
+            total += minutestreamed[i];
+        }
+    }
+
+    // 5. Return the total
+    return total;
+  }
   
   //Returns summarizing the data 
   public String toString (){
     String result = "";
-    result += "Total minutes:" + minutestreamed.length + "\n";
-    result += "Most Popular:" + getMostPopular() +"\n\n";
+    result += "Most Popular:" + getMostPopular() +"\n";
+    result += "Total minutes:" + countTotalMinuteByGenre(getMostPopular()) + "\n\n";
     //Lists each genre with minutestreamed
     for (int i = 0; i < minutestreamed.length; i++) {
       result += minutestreamed[i] +"," + topgenre[i] +"\n";
